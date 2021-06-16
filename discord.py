@@ -2,8 +2,8 @@ discordbot.py
 # インストールした discord.py を読み込む
 import discord
 
-# 自分のBotのアクセストークンに置き換えてください
-TOKEN = 'THi5IsDuMMyaCCesSTOK3n00.Cl2FMQ.ThIsi5DUMMyAcc3s5ToKen0000'
+# 自分のBotのアクセストークンを定義する。
+TOKEN = 'ODU0Njk1MzM1NTYxNjU4NDA4.YMnrDw.gX6NReN0iQvt9i0OdMObQT5xwO8'
 
 # 接続に必要なオブジェクトを生成
 client = discord.Client()
@@ -20,9 +20,9 @@ async def on_message(message):
     # メッセージ送信者がBotだった場合は無視する
     if message.author.bot:
         return
-    # 「/neko」と発言したら「にゃーん」が返る処理
-    if message.content == '/neko':
-        await message.channel.send('にゃーん')
+    # 「/ねこ」と発言したら「猫の集い」が返る処理
+    if message.content == '/ねこ':
+        await message.channel.send('猫の集い')
 
 # Botの起動とDiscordサーバーへの接続
 client.run(TOKEN)
