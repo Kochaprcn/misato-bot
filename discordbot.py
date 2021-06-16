@@ -3,7 +3,7 @@ discordbot.py
 import discord
 
 # 自分のBotのアクセストークンを定義する。
-TOKEN = 'ODU0Njk1MzM1NTYxNjU4NDA4.YMnrDw.a8PSPTgKg9NicP0WInwwknZ1jUQ'
+TOKEN = 'ODU0Njk1MzM1NTYxNjU4NDA4.YMnrDw._T0xchz2sxlpDIZ7YrIoPv5w6J4'
 
 # 接続に必要なオブジェクトを生成
 client = discord.Client()
