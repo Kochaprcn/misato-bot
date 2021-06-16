@@ -20,7 +20,7 @@ async def on_message(message):
     # メッセージ送信者がBotだった場合は無視する
     if message.author.bot:
         return
-    # 「/ねこ」と発言したら「猫の集い」が返る処理
+    # 「/neko」と発言したら「猫の集い」が返る処理
     if message.content == '/neko':
         await message.channel.send('猫の集い')
 
