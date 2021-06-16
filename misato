@@ -4,6 +4,6 @@ inport traceback
 
 @bot.commands
 async def neko(ctx):
-  await ctx.send('猫の集い')
+    await ctx.send('猫の集い')
 
 bot.run(token)
