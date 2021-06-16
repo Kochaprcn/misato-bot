@@ -23,6 +23,9 @@ async def on_message(message):
     # 「/neko」と発言したら「猫の集い」が返る処理
     if message.content == '/neko':
         await message.channel.send('猫の集い')
+    # 「/start」と発言したら「連携を開始します」が返る処理
+    if message.content == '/start':
+        await message.channel.send('連携を開始します')
 
 # Botの起動とDiscordサーバーへの接続
 client.run(TOKEN)
