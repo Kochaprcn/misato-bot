@@ -21,7 +21,7 @@ async def on_message(message):
     if message.author.bot:
         return
     # 「/ねこ」と発言したら「猫の集い」が返る処理
-    if message.content == '/ねこ':
+    if message.content == '/neko':
         await message.channel.send('猫の集い')
 
 # Botの起動とDiscordサーバーへの接続
